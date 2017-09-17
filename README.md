@@ -19,10 +19,10 @@ webp & gif
 
 useage:
 register support:
- 
-  ApngLoader.init(this);
-  Graphics.get().getRegistry().append(new FrameSequenceModule(), FrameSequenceLoader.class);
-  Graphics.get().getRegistry().append(new ApngSequenceModule(), ApngSupportLoader.class);
+
+      ApngLoader.init(this);
+      Graphics.get().getRegistry().append(new FrameSequenceModule(), FrameSequenceLoader.class);
+      Graphics.get().getRegistry().append(new ApngSequenceModule(), ApngSupportLoader.class);
 
 input : 
   file[strongly recommanded] or inputstream 
